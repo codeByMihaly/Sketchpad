@@ -1,0 +1,13 @@
+#container {
+    width: 512px;
+    height: 512px;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+}
+
+.content {
+    background-color: lightblue;
+}
+
