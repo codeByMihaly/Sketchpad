@@ -29,7 +29,7 @@ The goal was to build an interactive drawing grid using **JavaScript**, practici
 - Managing state inside a simple app  
 - Building interactive UI without frameworks  
 
-# Screenshot
+## Screenshot
 
 <img width="2533" height="1350" alt="img1" src="https://github.com/user-attachments/assets/ca3ac249-4ac6-4de4-91d6-f36255a30464" />
 
