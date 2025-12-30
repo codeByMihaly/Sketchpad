@@ -2,9 +2,6 @@ const container = document.getElementById("container");
 const button = document.getElementById("button");
 button.textContent = "Click me!";
 
-button.addEventListener("click", sketchPad);
-
-
 function sketchPad() {
     container.textContent = "";
     let input = prompt("Write a number! Max:100");
@@ -30,7 +27,7 @@ function sketchPad() {
                     if (darkness < 10) {
                         darkness += 1;
                         content.setAttribute("data-darkness", darkness);
-                        const shade = 255 - darkness *25.5;
+                        const shade = 255 - darkness * 25.5;
                         content.style.backgroundColor = `rgb(${shade}, ${shade}, ${shade})`;
                     }
                 });
@@ -38,3 +35,5 @@ function sketchPad() {
             }
         };
 }
+button.addEventListener("click", sketchPad);
+
